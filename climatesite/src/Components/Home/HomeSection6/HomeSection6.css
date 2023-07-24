@@ -1,0 +1,106 @@
+.home6-main-container {
+  padding: 100px;
+}
+.home6-heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.heading-lite {
+  text-align: center;
+  font-weight: 300;
+}
+.heading-dark {
+  text-align: center;
+  font-weight: 800;
+}
+.home6-heading-container p {
+  text-align: center;
+  line-height: 25px;
+  font-size: 19px;
+  margin-top: 30px;
+}
+.home6-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.home6-card-container-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.home6-image-container {
+  width: 100%;
+  padding: 20px;
+}
+.home6-image-container-reverse {
+  width: 50%;
+  padding: 20px;
+}
+.home6-image-container img,
+.home6-image-container-reverse img {
+  width: 100%;
+  height: 450px;
+  border-radius: 10px;
+  margin: auto;
+}
+.home6-content-container {
+  display: flex;
+  justify-content: center;
+  padding: 100px 20px;
+  flex-direction: column;
+}
+.home6-content-container-reverse {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 100px 20px;
+  flex-direction: column;
+}
+.home6-content-container h1,
+.home6-content-container-reverse h1 {
+  text-align: left;
+  margin: 10px 0px;
+  font-size: 30px;
+}
+.home6-content-container p,
+.home6-content-container-reverse p {
+  text-align: left;
+  margin: 10px 0px;
+  line-height: 30px;
+  font-size: 21px;
+}
+
+@media screen and (max-width: 576px) {
+  .home6-main-container {
+    padding: 20px;
+  }
+  .home6-card-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .home6-content-container {
+    padding: 20px 20px;
+  }
+  .home6-card-container-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .home6-content-container-reverse {
+    width: 100%;
+    padding: 20px 20px;
+  }
+  .home6-image-container-reverse {
+    width: 100%;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .home6-image-container img,
+  .home6-image-container-reverse img {
+    height: 230px;
+  }
+}

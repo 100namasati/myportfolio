@@ -1,0 +1,240 @@
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+  position: relative;
+}
+.climateCardContainer {
+  height: 360px;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+.climateCardContainer img {
+  width: 100%;
+  height: 70%;
+  border-radius: 10px;
+}
+.climateCardContent {
+  padding: 10px;
+  cursor: pointer;
+}
+.climateCardContent p {
+  color: gray;
+  margin-bottom: 10px;
+}
+.climateCardContent span {
+  margin: 10px;
+}
+.buttonDetails {
+  /* display: none; */
+  background-color: #86af47;
+  border-color: transparent;
+  color: white;
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.climateShowData {
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: white;
+  left: 0px;
+  border-radius: 10px;
+}
+.climateShowData p {
+  margin: 0;
+}
+.climateCardContainer:hover .climateShowData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.climateCardContainer:hover .climateCardContent {
+  display: none;
+}
+.climateFooterContainer {
+  /* border:1px solid black; */
+  border-radius: 20px;
+  width: 80%;
+  display: flex;
+  height: auto;
+  margin: 10px auto;
+  box-shadow: 0 0 16px -3px rgba(0, 0, 0, 0.51);
+}
+.climateFooterLeftContainer {
+  width: 50%;
+  padding: 10px;
+}
+.climateFooterLeftContainer h2 {
+  margin-left: 30px;
+}
+.climateFooterLeftContainer .rolesButton {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-evenly;
+}
+.climateFooterLeftContainer .rolesButton button {
+  padding: 20px;
+  color: black;
+  border: transparent;
+  border-radius: 20px;
+  width: 200px;
+}
+#indivisual {
+  background-color: #88ae47;
+}
+#business {
+  background-color: #c2e7ed;
+}
+.climateFooterRightContainer {
+  height: auto;
+  width: 50%;
+  /* border:1px solid black; */
+}
+.climateFooterRightContainer img {
+  width: 100%;
+  height: 100%;
+}
+.climateSliderContainer {
+  display: none;
+}
+.card button.sc-aXZVg.bqCWu.rec.rec-arrow.rec.rec-arrow-left {
+  display: none;
+}
+.card button.sc-aXZVg.bqCWu.rec.rec-arrow.rec.rec-arrow-right {
+  display: none;
+}
+.card button.sc-aXZVg.iWchow.rec.rec-arrow.rec.rec-arrow-left {
+  display: none;
+}
+.card button.sc-aXZVg.iWchow.rec.rec-arrow.rec.rec-arrow-right {
+  display: none;
+}
+.card .sc-kAyceB.kvrXoZ.rec.rec-pagination {
+  display: none;
+}
+/* .card button.sc-aXZVg .bqCWu .rec .rec-arrow .rec .rec-arrow-left {
+    position: absolute;
+    right: 60px;
+    top: 0;
+    border-radius: 0;
+    height: 20px;
+    min-width: 25px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+    align-self: center;
+    line-height: 0;
+    margin-right: 30px;
+}
+.card button.sc-aXZVg .bqCWu .rec .rec-arrow .rec .rec-arrow-right{
+    position: absolute;
+    right: 60px;
+    top: 0;
+    border-radius: 0;
+    height: 20px;
+    min-width: 25px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+    align-self: center;
+    line-height: 0;
+    margin-right: 30px;
+} */
+/* .card .iWchow {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    height: 20px;
+    min-width: 25px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+    align-self: center;
+    line-height: 0;
+    border-radius: 0;
+} */
+@media (max-width: 991px) {
+  /* .renewableSection{
+        display: none;
+    }
+    .climateSliderContainer{
+        display: block;
+    } */
+  .card button.sc-aXZVg.iWchow.rec.rec-arrow.rec.rec-arrow-left {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    right: 60px;
+    border-radius: 0;
+    min-width: 30px;
+    width:20px;
+    height: 20px;
+    line-height: 0;
+    font-size: 18px;
+    background-color:gainsboro;
+  }
+  .card button.sc-aXZVg.iWchow.rec.rec-arrow.rec.rec-arrow-right {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    border-radius: 0;
+    min-width: 30px;
+    width:20px;
+    height: 20px;
+    line-height: 0;
+    font-size: 18px;
+    background-color:gainsboro;
+  }
+  .card button.sc-aXZVg.bqCWu.rec.rec-arrow.rec.rec-arrow-left {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    right: 60px;
+    border-radius: 0;
+    min-width: 30px;
+    width:20px;
+    height: 20px;
+    line-height: 0;
+    font-size: 18px;
+    /* background-color:gainsboro; */
+  }
+  .card button.sc-aXZVg.bqCWu.rec.rec-arrow.rec.rec-arrow-right {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    border-radius: 0;
+    min-width: 30px;
+    width:20px;
+    height: 20px;
+    line-height: 0;
+    font-size: 18px;
+    /* background-color:gainsboro; */
+  }
+}
+@media (max-width: 675px) {
+  .climateFooterContainer {
+    width: 100%;
+  }
+  .climateFooterLeftContainer .rolesButton {
+    flex-direction: column;
+    align-items: center;
+  }
+  .climateFooterLeftContainer .rolesButton button {
+    margin-bottom: 10px;
+  }
+}

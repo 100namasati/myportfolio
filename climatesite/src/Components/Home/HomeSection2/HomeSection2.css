@@ -1,0 +1,116 @@
+.home2-main-container {
+  padding: 50px;
+}
+.home2-heading-container h1 {
+  text-align: center;
+  font-weight: 400;
+  word-spacing: 10px;
+  padding: 10px 0px;
+}
+.home2-heading-container .bold-heading {
+  font-weight: 900;
+}
+.button-container {
+  padding: 8px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-wrapper {
+  padding: 8px 12px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+}
+.button-wrapper .btn {
+  margin: 0px 5px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: none;
+}
+.btn-active {
+  background-color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+/* img section css */
+.home2-img-section-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+}
+.img-section-left-wrapper {
+  padding: 20px;
+}
+.hr {
+  border-right: 1px solid rgba(205, 203, 203, 0.54);
+}
+.img-section-top-section {
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+  /* border: 1px solid red; */
+  padding: 10px;
+}
+.top-img-container {
+  /* padding: 10px; */
+  margin-bottom: 50px;
+}
+.top-img-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0px 0px 30px 0px rgba(128, 128, 128, 0.434);
+}
+.top-content-container {
+  padding: 10px 30px;
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.top-content-container p {
+  color: rgb(189, 189, 189);
+}
+.img-section-bottom-section {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.img-section-bottom-section img {
+  width: 100%;
+}
+/* img section css */
+
+/* media query */
+@media screen and (max-width: 576px) {
+  .home2-main-container {
+    padding: 10px;
+  }
+  .img-section-left-wrapper {
+    padding: 0px;
+  }
+  .home2-img-section-main {
+    flex-direction: column;
+    padding: 50px 10px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .img-section-top-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .top-img-container {
+    display: flex;
+    justify-content: center;
+  }
+  .top-img-container {
+    margin-bottom: 10px;
+  }
+  .top-content-container {
+   
+    height: 110px;
+   
+  }
+}

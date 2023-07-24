@@ -1,0 +1,103 @@
+.home7-main-container {
+  padding: 0px 50px;
+}
+.home7-heading-section {
+  padding: 20px;
+}
+.home7-heading-section .text-lite {
+  text-align: center;
+  margin: 10px 0px;
+  font-weight: 300;
+}
+.home7-heading-section .text-dark {
+  text-align: center;
+  margin: 10px 0px;
+  font-weight: 700;
+}
+.home7-content-section {
+  width: 90%;
+  margin: auto;
+}
+.home7-content-section {
+  padding: 50px;
+  background-image: url(../../../Images/home7BacImg.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.home7-content-container {
+  background-color: #e8e6e5ec;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px;
+}
+.home7-content-left-container,
+.home7-content-right-container {
+  padding: 25px;
+}
+.home7-left-top-section h2 {
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-size: 23px;
+}
+.home7-right-top-section p {
+  font-size: 17px;
+  line-height: 25px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+.home7-left-bottom-section p,
+.home7-right-bottom-section p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 10px 0px;
+}
+.home7-left-bottom-section .btn,
+.home7-right-bottom-section .btn {
+  width: 13rem;
+  padding: 15px 20px;
+  margin: 10px 0px;
+  font-size: 17px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.home7-left-bottom-section .getStart-btn {
+  color: white;
+  border: none;
+  background-color: #86af48;
+}
+.home7-right-bottom-section .approch-btn {
+  color: black;
+  border: 2px solid #86af48;
+  background-color: transparent;
+}
+@media screen and (max-width: 576px) {
+  .home7-main-container {
+    padding: 0px 10px;
+  }
+  .home7-content-container {
+    background-color: #e8e6e5ec;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .home7-content-section {
+    padding: 20px;
+  }
+  .home7-left-bottom-section .btn-container,
+  .home7-right-bottom-section .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  .home7-left-bottom-section .btn,
+  .home7-right-bottom-section .btn {
+    width: 10rem;
+    padding: 15px 10px;
+    margin: 10px auto !important;
+  }
+}

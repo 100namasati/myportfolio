@@ -1,0 +1,196 @@
+.header-main-contaienr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 100px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #d0d0d0;
+  position: relative;
+}
+.header-main-contaienr .logo {
+  height: 45px;
+}
+
+.header-menu-container {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0px 10px;
+}
+.header-menu-container li {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 0px 5px;
+  margin: 0px 15px;
+}
+.menu-item {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+}
+.resource-menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.resource-menu-item .arrow-img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  transition: 0.3s ease;
+}
+.arrow-img-active {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  transition: 0.3s ease;
+  transform: rotate(180deg);
+}
+/* .resource-menu-item:hover .resource-menu-item-container {
+  display: flex !important;
+} */
+.resource-menu-item-container {
+  width: 200px;
+  right: -50px;
+  top: 40px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+}
+.resource-menu-item-container>*{
+  padding: 8px 0px;
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+}
+.resource-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+  padding: 15px 25px;
+  margin-top: 5px;
+  border-bottom: 1px solid #d0d0d0;
+}
+/* side menu css */
+.bars-icon-container {
+  position: relative;
+  display: none;
+}
+.bars-icon-container img {
+  transition: 1s ease;
+  /* width: 50px; */
+  margin-left: 30px;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+.side-menu-container {
+  top: 60px;
+  margin: auto;
+  left: 0;
+  right: 0px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  background-color: #f4f4f4;
+}
+.side-menu-container li {
+  padding: 20px 0px;
+}
+.side-menu-item {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.resource-side-menu-item-continer {
+  display: flex;
+  flex-direction: column;
+}
+.resource-side-menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.resource-side-menu-item-container {
+  width: 200px;
+  right: -50px;
+  top: 40px;
+  background-color: white;
+  position: absolute;
+  display: none;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+}
+.resource-side-menu-item-container-active {
+  width: 100%;
+  margin: auto;
+  transition: 0.5s ease-out;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+}
+.resource-side-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+  padding: 15px 25px;
+  margin-top: 5px;
+  border-bottom: 1px solid #d0d0d0;
+}
+.resource-side-menu-item-continer .arrow-img {
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+  transition: 0.3s ease;
+}
+.resource-side-menu-item-continer .arrow-img-active {
+  transform: rotate(180deg) !important;
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+  transition: 0.3s ease;
+}
+.side-menu-active {
+  transition: 1s ease-in;
+}
+/* side menu css */
+/* media query */
+@media screen and (max-width: 768px) {
+  .header-menu-container {
+    display: none;
+  }
+  .bars-icon-container {
+    display: block;
+    position: absolute;
+    right: 10px;
+  }
+
+  .header-main-contaienr {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+}

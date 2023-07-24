@@ -1,0 +1,311 @@
+.ourApproachHeroContainer {
+  margin: 0;
+  background: url("../../Images/MenuImages/ourapproach-bg.jpeg");
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  justify-content: center;
+}
+.ourApproachHeroContainer h1 {
+  font-size: 50px;
+  text-align: center;
+  line-height: 70px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.highlightedText {
+  font-weight: 800;
+}
+.ourApproachHeroContainer p {
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* css for middle container */
+.ourApproachTopText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ourApproachTopText h3 {
+  text-transform: uppercase;
+  line-height: 50px;
+  text-align: center;
+  font-size: 30px;
+  width: 60%;
+}
+.ourApproachMiddleContent {
+  display: flex;
+  width: 80%;
+  margin: 10px auto;
+}
+.ourApproachMiddleContentItem {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: flex-start;
+}
+.ourApproachMiddleContentItem .itemIcon img {
+  height: 100px;
+  width: 100px;
+}
+.ourApproachMiddleContentItem h2 {
+  margin: 10px;
+}
+.ourApproachMiddleContentItem p {
+  color: gray;
+  line-height: 20px;
+  font-size: 16px;
+  margin: 10px;
+}
+.ourApproachMiddleContentItem img {
+  height: auto;
+  margin-top: 40px;
+  width: 100%;
+}
+/* Css for work flow render */
+.workFlowContainer {
+  height: auto;
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.workFlowTopText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.workFlowTopText h2 {
+  text-align: center;
+  line-height: 40px;
+  font-weight: 500;
+  font-size: 30px;
+}
+.workFlowTopText span {
+  font-weight: 800;
+}
+.workFlowFirstStep {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.startDescription {
+  width: 500px;
+}
+.arrowContainer {
+  display: flex;
+  align-items: center;
+  height: 200px;
+}
+.para1 {
+  color: black;
+  line-height: 30px;
+}
+.para2 {
+  color: gray;
+  line-height: 30px;
+}
+.arrowContainer img {
+  height: 50px;
+  width: 130px;
+}
+.workFlowItem {
+  background-color: white;
+  /* border:1px solid black; */
+  width: 350px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  box-shadow: 0 0 16px -3px rgba (0, 0, 0, 0.51);
+}
+.workFlowItem .stepIcon {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(132, 174, 88);
+  border-radius: 3px;
+  padding: 2px;
+}
+.workFlowItem .stepIcon img {
+  width: 100%;
+  height: 100%;
+}
+.workFlowItem p {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+  line-height: 35px;
+  margin: 30px 0;
+}
+.arrowBlueContainer {
+  display: flex;
+  align-items: center;
+}
+/* .arrowContainer img{
+    height: 150px;
+    width:50px
+} */
+.arrowBlueContainer img {
+  height: 130px;
+  width: 50px;
+  margin: 20px;
+}
+#verticalArrow {
+  transform: rotate(90deg);
+}
+#leftArrow {
+  transform: rotate(180deg);
+}
+.workFlowSecondStep {
+  display: flex;
+  justify-content: space-around;
+}
+.workFlowSecondStepLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Css for climate Change */
+.climateChangeContainer {
+  background: url("../../Images/MenuImages/approch_climate_change.jpeg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  position: relative;
+}
+.climateChangeContent {
+  background-color: white;
+  width: 60%;
+  height: auto;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 60px;
+  left: 30px;
+}
+.climateChangeContent h2 {
+  font-weight: 500;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+.climateChangeContent h2 span {
+  font-weight: 800;
+}
+.climateChangeContent p {
+  line-height: 30px;
+}
+.approachActionContainer {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  width: 80%;
+  margin: 10px auto;
+}
+.approachActionContainer .first {
+  display: flex;
+  /* padding:20px; */
+}
+.approachActionContent {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* border:1px solid black; */
+}
+.approachActionContent img {
+  height: 40px;
+  width: 40px;
+}
+#right {
+  border-image: linear-gradient(rgba(0, 0, 0, 0), rgb(132, 132, 132)) 1 100% / 1 /
+    0 stretch;
+  border-right-width: 2px;
+  border-right-style: solid;
+}
+#top {
+  border-image: linear-gradient(to left, rgb(132, 132, 132), rgba(0, 0, 0, 0)) 1 /
+    1 / 0 stretch;
+  border-top: 2px solid;
+}
+#bottom {
+  border-image: linear-gradient(to right, rgb(132, 132, 132), rgba(0, 0, 0, 0))
+    1 / 1 / 0 stretch;
+  border-bottom: 2px solid;
+  /* border-bottom-style: solid */
+}
+#left {
+  border-image: linear-gradient(rgb(132, 132, 132), rgba(0, 0, 0, 0)) 1 100% / 1 /
+    0 stretch;
+  border-left-width: 2px;
+  border-left-style: solid;
+}
+@media (max-width: 991px) {
+  .ourApproachMiddleContent {
+    flex-direction: column;
+  }
+  .ourApproachTopText h3 {
+    width: 90%;
+  }
+  .arrowContainer {
+    display: none;
+  }
+  .arrowBlueContainer {
+    display: none;
+  }
+  .workFlowFirstStep {
+    flex-direction: column;
+  }
+  .startDescription {
+    width: 100%;
+  }
+  .workFlowItem {
+    width: 80%;
+    margin: 10px auto;
+  }
+  .workFlowSecondStep {
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  .ourApproachHeroContainer h1 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .ourApproachTopText h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 525px) {
+  .climateChangeContainer {
+    height: 700px;
+  }
+  .approachActionContainer .first {
+    flex-direction: column;
+  }
+  #top{
+    border:none
+  }
+  #bottom{
+    border:none
+  }
+  #left{
+    border:none;
+  }
+  #right{
+    border:none;
+  }
+
+}
+@media (max-width: 475px) {
+  .ourApproachHeroContainer h1 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}

@@ -1,0 +1,108 @@
+.home5-main-container {
+  padding: 10px 100px;
+}
+.home5-headings-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+.home5-headings-container h1 {
+  padding: 10px 0px;
+  font-weight: 300;
+  word-spacing: 5px;
+  text-align: center;
+}
+.home5-headings-container h1 span {
+  padding: 10px 0px;
+  font-weight: 700;
+}
+.home5-headings-container p {
+  text-align: center;
+  margin: 5px 0px;
+  color: #afafaf;
+}
+.home5-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.home5-card {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+}
+/*  */
+
+.home5-card1 {
+  background-image: linear-gradient(
+    to right,
+    white,
+    #afafaf6b,
+    #afafaf8f,
+    #afafaf
+  );
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 3px; /* Adjust the height of the border-bottom */
+}
+.home5-card2 {
+  background-image: linear-gradient(
+    to bottom,
+    white,
+    #afafaf6b,
+    #afafaf8f,
+    #afafaf
+  );
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 3px 100%; /* Adjust the height of the border-bottom */
+}
+.home5-card3 {
+  background-image: linear-gradient(
+    to top,
+    white,
+    #afafaf6b,
+    #afafaf8f,
+    #afafaf
+  );
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 3px 100%; /* Adjust the height of the border-bottom */
+}
+.home5-card4 {
+  background-image: linear-gradient(
+    to left,
+    white,
+    #afafaf6b,
+    #afafaf8f,
+    #afafaf
+  );
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 3px; /* Adjust the height of the border-bottom */
+}
+
+.home5-card-img-container {
+  padding: 10px;
+}
+.home5-card-content-container {
+  padding: 0px 10px;
+}
+
+.home5-card-content-container .heading {
+  margin: 10px 0px;
+}
+
+@media screen and (max-width: 991px) {
+  .home5-main-container {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .home5-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

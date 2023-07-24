@@ -1,0 +1,67 @@
+.ekoPointsContainer {
+  display: flex;
+  flex-direction: column;
+  /* padding: 30px; */
+  justify-content: space-around;
+  align-items: center;
+}
+.ekoPointsNavbar{
+    padding:30px;
+    width: 100%;
+    background-color: gainsboro;
+}
+.ekoPointsNavbar h1{
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 500;
+}
+.ekoPointsNavbar span{
+    font-weight: 800;
+}
+.ekoPointsContent {
+  display: flex;
+  width: 80%;
+  margin: 15px auto;
+  justify-content: space-around;
+}
+.ekopointsContentText {
+  width: 40%;
+}
+.ekopointsContentText {
+  display: flex;
+  flex-direction: column;
+}
+.ekopointsContentText h5 {
+  font-weight: 800;
+  font-size: 20px;
+}
+.ekopointsContentText h1 {
+  color: #5b851f;
+  width: 70%;
+  margin: 10px 0;
+}
+.ekopointsContentText p {
+  color: grey;
+  line-height: 30px;
+  font-size: 20px;
+}
+.ekopointsContentImg {
+  width: 40%;
+}
+.ekopointsContentImg img {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .ekoPointsContent {
+    flex-direction: column;
+  }
+  .ekopointsContentText {
+    width: 90%;
+  }
+  .ekopointsContentImg {
+    width: 90%;
+  }
+  .ekopointsContentText h1 {
+    width: 100%;
+  }
+}

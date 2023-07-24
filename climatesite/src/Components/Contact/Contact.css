@@ -1,0 +1,118 @@
+.contactNavbar {
+  padding: 30px;
+  width: 100%;
+  background-color: gainsboro;
+}
+.contactNavbar h1 {
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 500;
+}
+.contactInformation {
+  display: grid;
+  width: 80%;
+  margin: 40px auto;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.inforamtionContent {
+  border: 1px solid gray;
+  border-radius: 10px;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.inforamtionContent h3 {
+  margin: 10px;
+  /* color: #5b851f; */
+  font-weight: 700;
+  text-align: center;
+}
+.inforamtionContent p {
+  margin: 10px;
+  text-align: center;
+}
+.infoIcon {
+  color: #5b851f;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 2px;
+  text-align: center;
+}
+.infoFormContainer {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  /* border:1px solid black; */
+}
+.infoFormContainer .leftInfoContent label {
+  padding: 10px;
+  display: block;
+  color: gray;
+  font-weight: 600;
+}
+.leftInfoContent {
+  width: 50%;
+}
+.infoFormContainer .leftInfoContent input {
+  padding: 20px;
+  border: 1px solid gainsboro;
+  width: 80% !important;
+  margin: 10px 20px;
+  border-radius: 10px;
+}
+.rightInforContent {
+  width: 40%;
+}
+.secondRowInfo {
+  display: flex;
+  width: 100%;
+}
+.rightInforContent label {
+  padding: 10px;
+  display: block;
+  color: gray;
+  font-weight: 600;
+}
+.infoFormContainer .rightInforContent textarea {
+  padding: 20px;
+  border: 1px solid gainsboro;
+  width: 80% !important;
+  margin: 10px 20px;
+  border-radius: 10px;
+}
+.buttonContainer{
+    width: 15%;
+    margin:10px auto;
+    /* border:1px solid blue; */
+}
+.formButton {
+  padding: 20px;
+  border: 1px solid white;
+  color: white;
+  background-color: #5b851f;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media(max-width:768px)
+{
+    .contactInformation {
+        grid-template-columns: 1fr;
+      }
+      .infoFormContainer {
+       flex-direction: column;
+      }
+      .secondRowInfo {
+        flex-direction: column;
+      }
+      .leftInfoContent {
+        width: 100%;
+      }
+      .rightInforContent {
+        width: 100%;
+      }
+}
